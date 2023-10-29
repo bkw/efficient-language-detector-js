@@ -10,6 +10,9 @@
     "test": "vitest",
     "prepare": "tsc"
   },
+  "files": [
+    "lib/**/*"
+  ],
   "keywords": [
     "language-detection",
     "language-detector",
