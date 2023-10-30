@@ -77,13 +77,6 @@ describe("eldr", () => {
       const languageResult = eldr.detect("Hola, cómo te llamas?");
       expect(languageResult).toHaveProperty("languageName");
       expect(languageResult.languageName).toBe("Spanish");
-      const detected = eldr.detect("Hola, cómo te llamas?");
-      console.log(
-        detected.isReliable(),
-        detected.iso639_1,
-        detected.languageName,
-        detected.getScores()
-      );
     });
   });
 });
