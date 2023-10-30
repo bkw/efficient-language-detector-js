@@ -8,7 +8,7 @@ exports type definitions and avoids toplevel await() for easier bundling.
 - For _Node.js_
 
 ```bash
-$ npm install eldr
+$ yarn add https://github.com/bkw/eldr
 ```
 
 ## Usage
